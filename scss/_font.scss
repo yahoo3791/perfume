@@ -1,0 +1,83 @@
+.banner-content{
+    line-height: 36px;
+    opacity: 1;
+    text-align: left;
+}
+.banner-content a{
+    font-size: 28px;
+    text-align: center;
+    vertical-align: middle;
+}
+.Description_txt a{
+    text-align: center;
+}
+.commodity-card p, .detail_txt small, .item p, .Description_txt p{
+    font: normal normal 300 16px/24px "SF Pro Text";
+}
+.product_txt a{
+    font: normal normal 600 16px/24px "PingFang TC";
+}
+.detail_txt p{
+    font: normal normal 300 20px/30px "SF Pro Text";
+}
+.product_txt p{
+    font: normal normal 300 20px/30px "PingFing TC";
+}
+.banner-content p{
+    font: normal normal normal 24px/36px "SF Pro Text";
+}
+.commodity-card h3, .Description_txt h3, .item h2{
+    font: normal normal 600 24px/36px "SF Pro Text";
+}
+
+.detail_txt h2, .product_txt h2{
+    font: normal normal bold 32px/48px "SF Pro Text";
+}
+.sub h4{
+    font: normal normal 600 32px/48px "PingFang TC";
+}
+.banner-content h1{
+    font: normal normal bold 40px/60px "SF Pro Text";
+}
+
+////RWD 375px 
+@media (max-width:375px){
+.banner-content a{
+    font-size: 28px;
+    text-align: center;
+    vertical-align: middle;
+}
+.Description_txt h3{
+    text-align: left;
+}
+.Description_txt a{
+    text-align: center;
+}
+.item p ,.detail_txt small, .commodity-card p, .Description_txt p{
+    font: normal normal 300 16px/24px "SF Pro Text";
+}
+.banner-content p{
+    font: normal normal normal 20px/30px "SF Pro Text";
+}
+.product_txt p{
+    font: normal normal 300 20px/30px "PingFing TC";
+}
+.detail_txt p{
+    font: normal normal 300 20px/30px "SF Pro Text";
+}
+.product_txt a{
+    font: normal normal 600 16px/24px "PingFang TC";
+}
+.commodity-card h3, .Description_txt h3{
+    font: normal normal 600 24px/36px "SF Pro Text";
+}
+.item h2 {
+    font: normal normal 600 20px/30px "SF Pro Text";
+}
+.sub h4{
+    font: normal normal 600 32px/48px "PingFang TC";
+}
+.detail_txt h2, .product_txt h2, .banner-content h1{
+    font: normal normal bold 32px/48px "SF Pro Text";
+}
+}

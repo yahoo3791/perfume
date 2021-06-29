@@ -1,0 +1,83 @@
+.sub{
+    height: 600px;
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index10.jpg);
+    background-position: center center;
+    background-size: cover;
+    h4{
+        padding-bottom: 20px;
+        padding-top: 200px;
+        margin-left: 200px;
+    }
+    input{
+        margin-left: 200px;
+    }
+}
+.input-group{
+    display: flex;
+    min-height: 50px;
+    input{
+        border: 2px solid #916000;
+        border-radius: 4px 0px 0px 4px;
+    }
+    button{
+        border:2px solid #916000;
+        border-radius: 0px 4px 4px 0px;
+        cursor:pointer;
+    }
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+}
+.footer{
+    background-color: #916000;
+    display: flex;   
+    align-items: center;
+    justify-content: space-around;
+    min-height: 60px;
+    ul{
+        display: flex;
+    }
+
+}
+.left{
+    align-items: center;
+    p{
+        padding-left: 20px;
+    }
+}
+
+.right {
+    a{
+    display: none;
+    text-decoration: none;
+    display: block;
+    padding-right: 36px;
+}
+}
+@media (max-width:375px){
+    .sub{
+        width: 375px;
+        background-position: left;
+        h4{
+            margin-left: 0;
+            padding-left: 15px;
+        }
+        input{
+            margin-left: 15px;
+        }
+    }
+    .footer{
+        width: 375px;
+    }
+    .right{
+        a{
+            display: none;
+        }   
+    }
+    // .m-none{
+    //     display: none;
+    // }
+}

@@ -1,0 +1,31 @@
+$color-gold:#916019;
+$color-gray:#8D8D8D;
+$color-lightgray:#818A91;
+$color-light:#E0E0E0;
+$color-white:white;
+$color-earth:#ac8a46;
+$color-earth2:#916000;
+$color-black: #000;
+
+.product_txt a , .detail_txt a{
+    color: $color-earth;
+}
+.Description_txt a{
+    color: $color-black;
+}
+.sold-out img{
+    background-color: $color-black;
+} 
+.commodity-card del, .sub h4, .item del{
+    color:$color-gray;
+}
+.footer ,.right a, .brand li a, .banner-content a, .banner-content{
+    color:$color-white;
+}
+.input-group button{
+    color:$color-white;
+    background-color: $color-earth2;
+}
+.item a{
+    color: $color-gold;
+}
